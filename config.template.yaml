@@ -1,0 +1,23 @@
+# ZSW书籍评估方案 - 配置文件
+# 复制此文件为 config.yaml 并填入你的信息
+
+feishu:
+  # 你的飞书 open_id（用于创建文档时自动开通管理权限）
+  # 获取方法：飞书 → 头像 → 设置 → 账号与安全 → open_id
+  # 格式示例：ou_0f570b75ce43c6cbdff6f0ca1a640da4
+  owner_open_id: ""
+  
+  # 默认文档保存文件夹（可选）
+  # 如果不设置，将保存在「我的文档」根目录
+  default_folder: "书籍评估报告"
+
+# 评估报告默认设置
+report:
+  # 默认字数要求（可选：short-1000字/standard-2000字/detailed-3000字）
+  default_length: "standard"
+  
+  # 是否自动搜索社交媒体热点
+  search_social_media: true
+  
+  # 是否分析用户痛点
+  analyze_pain_points: true
